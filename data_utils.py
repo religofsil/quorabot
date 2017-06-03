@@ -264,8 +264,8 @@ def prepare_wmt_data(data_dir, en_vocabulary_size, fr_vocabulary_size, tokenizer
       (6) path to the French vocabulary file.
   """
   # Get wmt data to the specified directory.
-  train_path = get_wmt_enfr_train_set(data_dir)
-  dev_path = get_wmt_enfr_dev_set(data_dir)
+  train_path = os.path.join(data_dir, "train")
+  dev_path = train_path
 
   from_train_path = train_path + ".en"
   to_train_path = train_path + ".fr"
