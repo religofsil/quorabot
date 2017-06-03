@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+quora_links/__init__.py
+quora_links/items.py
+quora_links/middlewares.py
+quora_links/pipelines.py
+quora_links/settings.py
+quora_links/spiders/__init__.py
+quora_links/spiders/quora.py

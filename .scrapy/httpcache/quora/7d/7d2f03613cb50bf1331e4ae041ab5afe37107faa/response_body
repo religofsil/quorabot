@@ -1,0 +1,14 @@
+<!DOCTYPE html><html><head><title>Error 403 (Forbidden)</title><style type="text/css">/**
+ * Name: error.css
+ * URL: /static/_pkgfbfa53cdf73c691a/error.css
+ * Generated: 1469594232506477
+ * Files: /internal/error.less
+ */
+*{margin:0;padding:0}html{font:15px/22px "Helvetica Neue",Arial,sans-serif;background:#fff;color:#222;padding:15px}body{margin:10% auto 0;max-width:300px;min-height:200px;padding:30px 0 15px}p{margin:13px 0 25px;overflow:hidden}u{color:#777;text-decoration:none}a{color:#155fad;text-decoration:none}a img{border:0}#logo{background:url(https://qsf.is.quoracdn.net/-6b3c63e23a5ee226.svg) center center / 80px 23px no-repeat;display:inline-block;height:44px;width:82px}.error{padding:0 0 10px}html.ios_error,html.android_error{background:#f4f4f4;font-size:14px;line-height:1.4em;text-align:center;color:#666}html.ios_error body,html.android_error body{padding:100px 0 0 0}html.ios_error p,html.android_error p{margin-top:25px}html.ios_error b,html.android_error b{font-size:20px;font-weight:normal}html.ios_error u,html.android_error u{font-size:20px;color:#666}html.ios_error #logo,html.android_error #logo{display:none}</style><meta charset="utf-8"><meta name="viewport" content="initial-scale=1, minimum-scale=1, width=device-width"></head><body class='mobile_app2'><a href="//www.quora.com/"><span id="logo"></span></a><p><b>403.</b> <u>Forbidden.</u></p><p>You don&#039;t have permission to view this page.</p><p><a style="display:none;" id="instance">https://www.quora.com</a></p><p>Please email <a href="mailto:inquiries@quora.com">inquiries@quora.com</a> if you believe this is an error. Please include your IP address in your email.</p><script type="text/javascript">/**
+ * Name: error.js
+ * URL: /static/_pkg8c110fe5b00d56bd/error.js
+ * Generated: 1469594232788711
+ * Files: /internal/error.js
+ */
+(function(e,t){var a=e.QuoraAndroid,n=!a&&e.navigator.userAgent.indexOf("Quora")>=0;function r(r,i){i=i||{};var o={messageName:r,data:i};if(a){a.sendMessage(JSON.stringify(o))}if(n){var s=btoa(e.unescape(encodeURIComponent(JSON.stringify([o]))));var d=t.createElement("iframe");d.setAttribute("src","qb64://"+s);d.setAttribute("frameborder",0);d.setAttribute("height",0);d.setAttribute("width",0);t.documentElement.appendChild(d);d.parentNode.removeChild(d);d=null}}if(n||a){var i=t.getElementsByTagName("html")[0],o=a?"android_error":n?"ios_error":"";i.setAttribute("class",o);var s=t.getElementById("reload");if(s){s.style.display="";s.onclick=function(){r("reload")}}var d=(e.location.hostname.match(/./g)||[]).length>2;var l=t.getElementById("instance");if(d&&l){l.style.display="";l.onclick=function(){r("switchInstance",{instance_name:"m",host:"quora.com",scheme:"https"})}}t.title="Error";r("setBackgroundColor",{red:244,green:244,blue:244,alpha:1});r("PageReady")}})(window,document);
+</script></body></html>
