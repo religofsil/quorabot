@@ -42,8 +42,8 @@ import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 
-quorabot.data_utils
-quorabot.seq2seq_model
+import quorabot.data_utils
+import quorabot.seq2seq_model
 
 
 tf.app.flags.DEFINE_float("learning_rate", 0.5, "Learning rate.")
